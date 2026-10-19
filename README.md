@@ -1,9 +1,26 @@
-# Diabetes_Prediction
-This is a supervised, binary classification project, and the objective is to predict whether the patient has diabetes or not, based on the diagnostic measurements given. 
-Machine learning classification model was developed to predict the target outcome; i.e. whether the patient has diabetes or not, based on the given dataset.
+# Diabetes Prediction
 
-The data was checked, cleaned and exploratory data analysis was done in the clean data. EDA showed that some categories had zero as variables, they were replaced with NaN and cleaned. Data preprocessing was done and the clean data was splitted using train-test method. The data was trained using models such as Logistic Regression, Decision Tree, Random Forest and XG Boost. After the models were compoared using cross-validation method, XGBoost model was selected as it had the highest mean F1-score of 0.608. Since, the dataset had class imbalance, mean F1-score was used for assessment rather than completely relying only on the accuracy score.
+# About the Project
 
-After the model selection, hyperparameter tuning was done and evaluation was done on the test set. The final model achieved 77% accuracy score and 71% of macro average score in the test set. The selected model only made 34 errors, indicating the model performed well on the dataset. The model showed strong discrimination ability in the ROC-AUC Curve. The final model was saved as final_model.pkl, such that it can be reused for future predictions without retraining.
+This is a supervised, binary classification problem.
+The objective is to predict whether the patient has diabetes or not, based on the diagnostic measurements given.
 
-This project showed how machine learning can be applied to the given binary classification dataset through data preprocessing, model training, evaluation of model and final model selection. Future improvements can be done by using methods like Feature engineering so that the model can learn the underlying pattern more effectively; SHAP can be used to identify the features that contributed most to the model predictions; better handling of class imbalance can be done with SMOTE technique; model deployment can be done to turn it into a real-world usable application.
+# Features
+
+Load the data
+Data Cleaning
+Exploratory data analysis
+Data preprocessing
+Model Comparison
+Display results
+
+# Technologies used
+
+Python
+Panda
+NumPy
+Matplotlib
+Seaborn
+
+
+
