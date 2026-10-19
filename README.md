@@ -1,9 +1,18 @@
 # Diabetes Prediction
 
-# About the Project
+# Overview
 
-This is a supervised, binary classification problem.
-The objective is to predict whether the patient has diabetes or not, based on the diagnostic measurements given.
+This project uses Python and machine learning to explore diabetes prediction using a dataset.
+
+# Technologies
+
+Python
+Jupyter Notebook/ Google Colab
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
 
 # Features
 
@@ -14,13 +23,15 @@ Data preprocessing,
 Model Comparison,
 Display results
 
-# Technologies used
+# How to Run
 
-Python,
-Panda,
-NumPy,
-Matplotlib,
-Seaborn
+Download the notebook and dataset from this repository.
+Open Google Colab.
+Upload the notebook.
+Upload diabetes_dataset.csv using the Files panel.
+Run the notebook cells from top to bottom.
 
+# Disclaimer
 
+This project is for educational purposes only. Its predictions are not a medical diagnosis.
 
