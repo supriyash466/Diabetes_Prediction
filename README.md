@@ -7,11 +7,11 @@ The objective is to predict whether the patient has diabetes or not, based on th
 
 # Features
 
-Load the data
-Data Cleaning
-Exploratory data analysis
-Data preprocessing
-Model Comparison
+Load the data,
+Data Cleaning,
+Exploratory data analysis,
+Data preprocessing,
+Model Comparison,
 Display results
 
 # Technologies used
