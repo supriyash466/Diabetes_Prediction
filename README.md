@@ -16,10 +16,10 @@ Display results
 
 # Technologies used
 
-Python
-Panda
-NumPy
-Matplotlib
+Python,
+Panda,
+NumPy,
+Matplotlib,
 Seaborn
 
 
